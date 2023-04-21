@@ -2,7 +2,7 @@ pipeline {
     environment {
         registry = "https://816886327690.dkr.ecr.us-east-2.amazonaws.com"
       }
-    agent { label 'jenkins_agent'}
+    agent any
     tools {
           maven '3.8.7'
         }
